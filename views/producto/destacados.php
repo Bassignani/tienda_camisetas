@@ -1,6 +1,6 @@
 
   					<h1>Algunos de nuestros productos </h1>
-            <h2>FALTA BAJAR EL STOCK Y SI EL STOCK ES 0 QUE NO APARESCAN </h2>
+            <!-- <h2>FALTA BAJAR EL STOCK Y SI EL STOCK ES 0 QUE NO APARESCAN </h2> -->
             <?php while($product = $productos->fetch_object()): ?>
   					<div class="product">
                 <a href="<?=base_url?>?controller=producto&action=ver&id=<?=$product->id;?>">
